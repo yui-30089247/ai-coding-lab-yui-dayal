@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <map>
 
 using namespace std;
  
@@ -15,4 +16,5 @@ private:
     string studentName;
     char grade;
     double attendanceRate;
+    std::map<std::string, double> grades;
 };
